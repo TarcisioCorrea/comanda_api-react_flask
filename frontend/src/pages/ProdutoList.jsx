@@ -76,6 +76,7 @@ function ProdutoList() {
     };
 
     return (
+        //Adição do botão baixar cpf
         <TableContainer component={Paper}>
             <Toolbar sx={{ backgroundColor: "#092B38", padding: 2, borderRadius: 1, mb: 2, display: 'flex', justifyContent: 'space-between' }}>
                 <Typography variant="h6" color="white">Produtos</Typography>
