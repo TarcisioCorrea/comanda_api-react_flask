@@ -1,0 +1,7 @@
+services:
+  comandas_frontend:
+    image: tccorrea/comandas-frontend:latest
+    container_name: comandas_frontend
+    ports:
+    - "80:80"
+    restart: always

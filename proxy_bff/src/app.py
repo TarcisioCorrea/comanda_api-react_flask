@@ -19,7 +19,7 @@ logging.basicConfig(level=logging.INFO)
 app = Flask(__name__)
 
 # Habilita CORS para permitir requisições do frontend React
-CORS(app, resources={r"/api/*": {"origins": f"{FRONTEND_URL}"}})
+CORS(app)
 
 # Flask não serve automaticamente o favicon, então você precisa criar uma rota para ele
 # crie um arquivo favicon.ico na pasta static

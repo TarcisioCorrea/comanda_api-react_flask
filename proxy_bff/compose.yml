@@ -1,0 +1,7 @@
+services:
+  comandas_proxy_bff:
+    image: tccorrea/comandas-proxy-bff:latest
+    container_name: comandas_proxy_bff
+    ports:
+    - "4444:4444"
+    restart: always
